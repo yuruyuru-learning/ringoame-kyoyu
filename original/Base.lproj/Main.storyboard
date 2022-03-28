@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="original" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="namaefure-mu-1" translatesAutoresizingMaskIntoConstraints="NO" id="7FY-gm-kUn">
+                                <rect key="frame" x="8" y="460" width="185" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="KR8-nQ-hOQ"/>
+                                    <constraint firstAttribute="height" constant="43" id="Ta3-MQ-U6q"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キャラの名前" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qo-G9-E8n">
+                                <rect key="frame" x="34.5" y="460" width="132" height="43"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="22"/>
+                                <color key="textColor" red="0.8980392157" green="0.59607843140000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fure-mu2432" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72o-Y9-pVR">
+                                <rect key="frame" x="8" y="511" width="393" height="222"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="03L-h3-cqM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="452"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="452" id="BvY-oF-NTz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUB-rW-e9N">
+                                <rect key="frame" x="281" y="778" width="120" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="tGh-7O-Cmd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                <state key="normal" title="次へ"/>
+                                <connections>
+                                    <action selector="tugi" destination="BYZ-38-t0r" eventType="touchUpInside" id="HB6-TI-4aN"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fvJ-Jk-c0e">
+                                <rect key="frame" x="54" y="542" width="301" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="IPx-2H-0Gy"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.89803921568627454" green="0.59607843137254901" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24584159143185041" green="0.2296466959218752" blue="0.60989276027180139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fvJ-Jk-c0e" firstAttribute="top" secondItem="72o-Y9-pVR" secondAttribute="top" constant="31" id="1QQ-No-MQ2"/>
+                            <constraint firstItem="72o-Y9-pVR" firstAttribute="top" secondItem="7FY-gm-kUn" secondAttribute="bottom" constant="8" id="1Z2-sG-dYa"/>
+                            <constraint firstItem="03L-h3-cqM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2vd-nB-1GJ"/>
+                            <constraint firstItem="72o-Y9-pVR" firstAttribute="leading" secondItem="7FY-gm-kUn" secondAttribute="leading" id="7ge-2d-Lg1"/>
+                            <constraint firstItem="7FY-gm-kUn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="BcD-d3-Srv"/>
+                            <constraint firstItem="03L-h3-cqM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CBK-n1-SuV"/>
+                            <constraint firstItem="7FY-gm-kUn" firstAttribute="top" secondItem="03L-h3-cqM" secondAttribute="bottom" constant="8" id="Cqe-uf-2nC"/>
+                            <constraint firstItem="fvJ-Jk-c0e" firstAttribute="trailing" secondItem="72o-Y9-pVR" secondAttribute="trailing" constant="-46" id="Fwb-jt-lUd"/>
+                            <constraint firstItem="9Qo-G9-E8n" firstAttribute="centerX" secondItem="7FY-gm-kUn" secondAttribute="centerX" id="JMh-Wj-faF"/>
+                            <constraint firstItem="03L-h3-cqM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lb3-4M-tga"/>
+                            <constraint firstItem="qUB-rW-e9N" firstAttribute="top" secondItem="72o-Y9-pVR" secondAttribute="bottom" constant="45" id="Num-qf-ctX"/>
+                            <constraint firstItem="fvJ-Jk-c0e" firstAttribute="bottom" secondItem="72o-Y9-pVR" secondAttribute="bottom" constant="-38" id="UWl-Vd-Ggg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="72o-Y9-pVR" secondAttribute="trailing" constant="13" id="XVV-H2-8Hm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qUB-rW-e9N" secondAttribute="bottom" constant="30" id="dEc-6g-sxi"/>
+                            <constraint firstItem="7FY-gm-kUn" firstAttribute="top" secondItem="9Qo-G9-E8n" secondAttribute="top" id="jOG-kN-3fM"/>
+                            <constraint firstItem="7FY-gm-kUn" firstAttribute="bottom" secondItem="9Qo-G9-E8n" secondAttribute="bottom" id="kqx-oY-EvH"/>
+                            <constraint firstItem="72o-Y9-pVR" firstAttribute="trailing" secondItem="qUB-rW-e9N" secondAttribute="trailing" id="tfY-lF-O9L"/>
+                            <constraint firstItem="fvJ-Jk-c0e" firstAttribute="leading" secondItem="72o-Y9-pVR" secondAttribute="leading" constant="46" id="vCm-k0-4q4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backImage" destination="72o-Y9-pVR" id="COx-u6-UMj"/>
+                        <outlet property="charaImage" destination="03L-h3-cqM" id="VDY-Mx-2zZ"/>
+                        <outlet property="nameLabel" destination="9Qo-G9-E8n" id="3yg-eY-5JE"/>
+                        <outlet property="textLabel" destination="fvJ-Jk-c0e" id="8u0-r6-BK1"/>
+                        <segue destination="T2U-r8-JU2" kind="presentation" identifier="senntakushi" modalPresentationStyle="fullScreen" id="IgG-Md-l5e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+        <!--Senntakushi View Controller-->
+        <scene sceneID="pGd-i9-aHS">
+            <objects>
+                <viewController id="T2U-r8-JU2" customClass="senntakushiViewController" customModule="original" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fiy-eG-cR8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xFi-9f-zoN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Xe-Jg-t2y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sv7-4l-97l">
+                                <rect key="frame" x="20" y="487" width="361" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="85"/>
+                                <state key="normal" title="A　2階">
+                                    <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapA" destination="T2U-r8-JU2" eventType="touchUpInside" id="LaS-8q-wFt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eyl-yh-ugp">
+                                <rect key="frame" x="-17" y="590" width="448" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="85"/>
+                                <state key="normal" title="B　地下室">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapB" destination="T2U-r8-JU2" eventType="touchUpInside" id="ubB-0c-6DU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3gs-tP-JnI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ur7-fc-3dM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="989.85507246376824" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fure-mu2432" width="3072" height="4096"/>
+        <image name="namaefure-mu-1" width="3072" height="4096"/>
+    </resources>
+    <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
